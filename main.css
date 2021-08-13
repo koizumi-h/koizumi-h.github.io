@@ -1,0 +1,235 @@
+/*=====全ページ共通のスタイル設定=====*/
+
+BODY {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+	color: #666666;
+	line-height: 150%;
+}
+
+A:LINK {
+	color: #3366CC; 
+	text-decoration: none; 
+}
+A:VISITED { 
+	color: #3366CC; 
+	text-decoration: none;
+}
+A:ACTIVE {
+	color: #3366CC; 
+	text-decoration: underline; 
+}
+A:HOVER { 
+	color: #FFFFFF; 
+	text-decoration: none;
+	background-color:#66CC33;
+}
+
+/* 大枠 */
+#all {
+	margin: 0px 20px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 720px;
+	background-image: url("image/back_line.gif");
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+}
+
+/* フッター */
+.footer-1 {
+	margin: 40px 0px 0px 36px;
+	padding: 2px;
+	height: 30px;
+	background-color: #66CC33;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: small;
+}
+
+.footer-2 {
+	margin: 0px 0px 0px 30px;
+	height: 50px;
+	background-color: #CCFF33;
+}
+
+/*=====top pageへのスタイル設定=====*/
+/* 左側の枠 */
+#left {
+	margin: 40px 0px 0px 0px;
+	padding: 0px 10px 0px 46px;
+	width: 190px;
+	float: left;
+}
+
+/* 右側の枠 */
+#right {
+	margin: 40px 0px 0px 0px;
+	padding: 0px;
+	width: 450px;
+	float: left;
+}
+
+.clear {
+	clear: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Name's Homepage */
+.title-square {
+	margin: 0px;
+	padding: 30px 4px 30px 4px;
+	background-color: #3366CC;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: verdana;
+	font-weight: bold;
+	line-height: 150%;
+}
+
+/* 更新日付の文字 */
+.kousin {
+	margin: 20px 0px 20px 0px;
+	padding: 0px 10px 30px 10px;
+	font-size: small;
+	color: #3366CC;
+}
+
+/* メニュー */
+.t-menu {
+	margin: 0px 0px 5px 0px;
+	padding: 3px 0px 0px 5px;
+}
+
+/* メニューの説明文 */
+.t-menu-2 {
+	margin: 0px 0px 10px 0px;
+	padding: 3px 0px 0px 6px;
+	font-size: small;
+}
+
+/* 右側挨拶文 */
+.aisatsu {
+	margin: 0px;
+	padding: 0px 10px 30px 10px;
+}
+
+.aisatsu-green {
+	color: #66C33C;
+}
+
+/* 右側画像 */
+.gazou {
+	margin: 40px 0px 0px 0px;
+	padding: 0px 10px 0px 0px;
+	text-align: right;
+}
+
+/*=====プロフィール・日記pageへのスタイル設定=====*/
+/* バナー */
+#banner {
+	margin: 0px 0px 0px 36px;
+	padding: 0px;
+	height: 80px;
+	background: url("image/center.gif") #FFFFFF no-repeat top left;
+	border-bottom: dotted 1px  #3366CC;
+}
+
+.banner-text {
+	margin: 0px 0px 0px 168px;
+	padding: 0px 10px 0px 0px;
+	background-color: #3366CC;
+	height: 56px;
+	text-align: right;
+	color: #FFFFFF;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+/* メニュー */
+.menu {
+	margin: 0px 0px 0px 167px;
+	padding: 2px 0px 2px 0px;
+	height: 20px;
+	background-color: #FFFFFF;
+	text-align: left;
+	font-size: small;
+}
+
+/* ページタイトル*/
+.page-title {
+	margin: 30px 20px 10px 100px;
+	padding: 2px 2px 2px 6px;
+	color: #3366CC;
+	text-align: left;
+	font-weight: bold;
+	font-size: large;
+	border-bottom: solid 1px  #3366CC;
+	border-left: solid 4px  #3366CC;
+}
+
+/* ページコメント */
+.cmt {
+	margin: 10px 20px 30px 100px;
+	padding: 0px 0px 0px 2px;
+	text-align: left;
+}
+
+/* profileのページ用 */
+/* テーブル */
+TABLE {
+	margin: 0px 20px 0px 100px;
+	border-style: hidden;
+}
+
+TD {
+	padding: 4px;
+	vertical-align: top;
+	border-bottom: dotted 1px  #66CC33;
+}
+
+.koumoku {
+	color: #66CC33;
+	width: 30%;
+}
+
+.contents {
+	width: 65%;
+	border-color: #CCCC99;
+}
+
+
+/* diaryのページ用 */
+/* 日付 */
+.d-date {
+	margin: 20px 20px 2px 100px;
+	padding: 0px 0px 0px 6px;
+	color: #66CC33;
+	text-align: left;
+	font-weight: bold;
+	font-size: small;
+}
+
+/* 見出し */
+.d-midasi {
+	margin: 0px 20px 0px 100px;
+	padding: 6px 6px 6px 12px;
+	background-color: #66CC33;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+/* 毎日のつぶやき */
+.d-text {
+	margin: 0px 20px 4px 100px;
+	padding: 6px;
+	color: #660099;
+	text-align: left;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-style: dotted;
+	border-color: #66cc33;
+}
