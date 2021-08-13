@@ -1,0 +1,145 @@
+BODY {
+	margin: 0px;
+	padding: 0px;
+	background-color: #3e3ec1;
+	color: #000000;
+	line-height: 150%;
+}
+
+/* バナー */
+.banner {
+	margin: 10px 20px 10px 20px;
+	padding: 40px 10px 0px 0px;
+	background-color: #db67db;
+	text-align: right;
+}
+
+/* 本文 */
+/* 本文大枠 */
+.main {
+	margin: 10px 20px 10px 20px;
+	padding: 20px 20px 40px 20px;
+	background-color: #e0d49f;
+	border: solid 1px #660033;
+	text-align: left;
+}
+
+/* ページタイトル */
+.main-title {
+	margin: 0px 0px 20px 0px;
+	padding: 10px 0px 0px 0px;
+	height: 30px;
+	color: #996699;
+	background-repeat: no-repeat;
+}
+
+.main-word {
+	margin: 0px 0px 30px 0px;
+	padding: 0px;
+	color: #660033;
+}
+
+.photo {
+	margin: 0px 15px 0px 0px;
+	float: left;
+}
+
+.clear {
+	clear: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.kugiri {
+	margin: 0px 0px 30px 0px;
+	padding: 0px;
+	width: 100%;
+	height: 40px;
+	background-image: url(image/hanabira.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* コメントタイトル */
+.cmt-title {
+	padding: 0px 0px 10px 0px;
+	color: #660033;
+}
+
+/* サブジェクト */
+.cmt-subject {
+	padding: 0px 0px 0px 6px;
+	color: #996699;
+	border-bottom: dotted 1px #996699;
+}
+
+/* コメント文 */
+.cmt-word {
+	padding: 6px 0px 30px 6px;
+}
+
+/* コメント共通マージン */
+.comment {
+	margin: 0px 40px 0px 40px;
+}
+
+/* フッター */
+.version {
+	margin: 0px 20px 10px 160px;
+	padding: 0px;
+	color: #000000;
+	text-align: center;
+	font-size: small;
+}
+
+/* カウンター */
+.counter {
+	margin: 0px 20px 10px 160px;
+	padding: 0px 0px 20px 0px;
+	text-align: center;
+}
+
+/* メニュー */
+
+.photo-menu {
+	margin: 0px;
+	padding: 0px;
+	border-bottom: solid 1px #660033;
+}
+
+.menu {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 140px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+	border-top: solid 1px #660033;
+	border-right: solid 1px #660033;
+	border-left: solid 1px #660033;
+}
+
+.navi {
+	display: block;
+	width: 140px;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+	color: #CCCCFF;
+	text-align: center;
+	text-decoration: none;
+	background-color: #660033;
+	border-top: solid 1px #CC9999;
+	border-bottom: solid 1px #330000;
+}
+
+.here {
+	color: #FFFFFF;
+	background-color: #996699;
+}
+
+.navi:hover { 
+	text-decoration: underline;
+	color: #FFFFFF;
+	background-color: #996699;
+}
